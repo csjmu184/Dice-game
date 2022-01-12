@@ -1,4 +1,5 @@
 
+function f(){
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
 var randomDiceImage = "dice_" + randomNumber1 + ".png"; //dice1.png - dice6.png
 var randomImageSource = "images/" + randomDiceImage; //images/dice1.png - images/dice6.png
@@ -21,3 +22,4 @@ else {
   document.querySelector("h1").innerHTML = "Match Draw ! &#9785";
 }
 
+}
